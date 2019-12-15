@@ -4,8 +4,7 @@ layout: about
 
 # About Me
 
-¹ş¹ş
-In this blog, I frequently write about the scripts that I create, either to automate stuff on my computer, or to improve my productivity. I am a Data Scientist by profession, and so I also write posts related to that field.
+çš„æœåŠ¡æ”¶è´¹In this blog, I frequently write about the scripts that I create, either to automate stuff on my computer, or to improve my productivity. I am a Data Scientist by profession, and so I also write posts related to that field.
 
 # Contact
 
