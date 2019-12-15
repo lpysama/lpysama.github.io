@@ -1,41 +1,49 @@
-# Site settings
-title:          Tale
-description:    "Minimal Jekyll theme for storytellers"
-baseurl:        "/tale"
-url:            "https://chesterhow.github.io"
+title: 'Sainath Adapa | Blog'
+author: Sainath Adapa
+email:
+url: https://sainathadapa.github.io
+description:
+favicon: "./android-icon-48x48.png" # set the favicon of the site 
 
-# Google Analytics
-google_analytics: UA—XXXXXXXX-X
+show_excerpts: false # set to true to show excerpts on the homepage
+  
+# Moving date format
+# refer to https://shopify.github.io/liquid/filters/date/ if you want to customize this
+moving:
+  avatar_url: "images/profile.jpg" # avatar in about page
+  about_you:
+  date_format: "%b %d" # date format of posts in home page
+  back_to: "Home" # In the post page, you have a back button above the title, you can custom the text by yourself.
 
-# Author
-author:
-  name:         Chester How
-  url:          https://chester.how
-  email:        chesterhow@gmail.com
+  # generate social links in about page.
+  social_links:
+    twitter: sainathadapa
+    github:  sainathadapa
+    rss: RSS
+    # dribbble: 
+    #facebook: huangyz0918
+    # flickr:   
+    # instagram: 
+    linkedin: sainathadapa
+    # pinterest: 
+    # youtube: 
+    # youtube_channel: 
+    # youtube_channel_name: 
+    # telegram: 
+    # googleplus: 
+    # microdotblog: 
+    # reddit: 
+
+    # Mastodon instances
+    # mastodon:
+    # - username: 
+    #   instance: 
+    # - username: 
+    #   instance: 
 
 # Build settings
-markdown:       kramdown
-include:
-  - _pages
+theme: huangyz0918/moving # note, please use huangyz0918/moving if you want to publish to Github Pages.
 
-# Assets
-sass:
-  sass_dir:     _sass
-  style:        compressed
-
-# Gems
 plugins:
   - jekyll-feed
-  - jekyll-paginate
   - jekyll-seo-tag
-  # - jemoji #Uncomment this to allow emoji in your post
-
-# Permalinks
-permalink:      /:year-:month-:day/:title
-paginate:       5
-
-# Excludes
-exclude: [ Gemfile, Gemfile.lock, tale.gemspec ]
-
-# Disqus (Set to your disqus id)
-disqus:         jekyll-tale
