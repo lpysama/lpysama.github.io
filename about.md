@@ -2,11 +2,10 @@
 layout: about
 ---
 
-# About the blog
+# About me 关于我
+本科毕业于电子科技大学(UESTC)计算机科学(Computer Science)
+硕士毕业于九州大学(KYUSHU UNIVERSITY)数据科学(Data Science)
 
-In this blog, I frequently write about the scripts that I create, either to automate stuff on my computer, or to improve my productivity. I am a Data Scientist by profession, and so I also write posts related to that field.
 
 # Contact
-
-If you want to reach out, feel free to contact me via [Twitter](https://twitter.com/sainathadapa) or [LinkedIn](https://linkedin.com/in/sainathadapa).
 
